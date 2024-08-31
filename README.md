@@ -25,4 +25,10 @@ https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/saida-
 
 https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/string.md#sequ%C3%AAncias-de-escape
 
+
+LINKS E CÓGIGOS DE LINGUAGEM CSHARP (30 de Agosto)
 https://gist.github.com/ermogenes/62f9db0816c7771e0fc0f29c72fbbdcb
+https://gist.github.com/ermogenes/62f9db0816c7771e0fc0f29c72fbbdcb
+
+
+
