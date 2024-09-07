@@ -32,3 +32,20 @@ https://gist.github.com/ermogenes/62f9db0816c7771e0fc0f29c72fbbdcb
 
 
 
+LINK E CÓGIGOS DE LINGUAGEM CSHARP (6 de Setembro)
+
+// Divisão
+double numerador, denominador, quociente;
+
+Console.Write("Numerador...: ");
+numerador = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Denominador.: ");
+denominador = Convert.ToDouble(Console.ReadLine());
+
+quociente = numerador / denominador;
+
+Console.WriteLine($"{numerador:N4} / {denominador:N4} = {quociente:N4}");
+
+https://gist.github.com/ermogenes/c9c1044ef06b51895ae8fab5da12223e
+
