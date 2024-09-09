@@ -49,3 +49,6 @@ Console.WriteLine($"{numerador:N4} / {denominador:N4} = {quociente:N4}");
 
 https://gist.github.com/ermogenes/c9c1044ef06b51895ae8fab5da12223e
 
+
+https://github.com/ermogenes/aulas-programacao-csharp
+
