@@ -31,6 +31,8 @@ https://gist.github.com/ermogenes/62f9db0816c7771e0fc0f29c72fbbdcb
 https://gist.github.com/ermogenes/62f9db0816c7771e0fc0f29c72fbbdcb
 
 
+https://github.com/diegoneri/NomeNinja/blob/main/Program.cs
+
 
 LINK E CÓGIGOS DE LINGUAGEM CSHARP (6 de Setembro)
 
