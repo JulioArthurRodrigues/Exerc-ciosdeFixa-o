@@ -58,7 +58,7 @@ https://github.com/ermogenes/aulas-programacao-csharp
 
 
 
-
+MUMEROS DIAS E MESES
 
 
 string mes = "";
@@ -98,9 +98,6 @@ switch(mes)
         Environment.Exit(0);
         break;
 }
-
-
-MUMEROS DIAS E MESES
 
 Console.WriteLine($"O mês de {mes} possui {dias} dias");
 
