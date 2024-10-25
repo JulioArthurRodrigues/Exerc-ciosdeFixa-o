@@ -26,7 +26,7 @@ https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/saida-
 https://github.com/ermogenes/aulas-programacao-csharp/blob/master/content/string.md#sequ%C3%AAncias-de-escape
 
 
-LINKS E CÓGIGOS DE LINGUAGEM CSHARP (30 de Agosto)
+LINKS E CÓDIGOS DE LINGUAGEM CSHARP (30 de Agosto)
 https://gist.github.com/ermogenes/62f9db0816c7771e0fc0f29c72fbbdcb
 https://gist.github.com/ermogenes/62f9db0816c7771e0fc0f29c72fbbdcb
 
@@ -153,3 +153,45 @@ switch(operacao)
 }
 
 Console.WriteLine($"Resultado: {resultado:N4}");
+
+
+
+
+BHASKARA
+
+
+﻿double a, b, c, delta, x1, x2;
+
+Console.WriteLine("-- Equação do segundo grau usando a Fórmula de Bhaskara--\n");
+
+Console.Write("(a): ");
+a = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("(b): ");
+b = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("(c): ");
+c = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine();
+
+if (a == 0)
+{
+    Console.WriteLine("Não equivale a uma equação de segundo grau!");
+}
+else
+{
+    delta = b * b - 4 * a * c;
+
+    if (delta < 0)
+    {
+        Console.WriteLine($"Visto que delta = {delta:N2}, a equação não possui raízes reais!");
+    }
+    else
+    {
+        x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+        x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+
+        Console.WriteLine($"x1 = {x1:N2} e x2 = {x2:N2}");
+    }
+}
