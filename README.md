@@ -245,4 +245,32 @@ bool AbastecerComGasolina(decimal precoEtanol, decimal precoGasolina)
     const double MinRazaoUsoGasolina = 0.73;
     return RazaoEtanolGasolina(precoEtanol, precoGasolina) >= MinRazaoUsoGasolina;
 }
- 
+
+
+CORREÇÃO DO EXERCÍCIO
+
+decimal etanol, gasolina, razao;
+Console.Clear();
+
+Console.WriteLine("--- Etanol ou Gasolina? ---\n");
+Console.Write("Digite o preço do etanol (R$).....: ");
+etanol = Convert.ToDecimal(Console.ReadLine());
+
+Console.Write("Digite o preço da gasolina (R$)...: ");
+gasolina = Convert.ToDecimal(Console.ReadLine());
+
+razao = RazaoEtanolGasolina(etanol, gasolina);
+
+Console.WriteLine($"\nO preço do etanol corresponde a {razao:P1} do preço da gasolina.");
+Console.WriteLine($"\nRecomendação: Abasteça com {(AbastecerComGasolina(razao) ? "GASOLINA" : "ETANOL")}.");
+
+decimal RazaoEtanolGasolina(decimal valorEtanol, decimal valorGasolina)
+{
+    return valorEtanol / valorGasolina;
+}
+
+bool AbastecerComGasolina(decimal razao)
+{
+    const decimal percentualIdeal = 0.73M;
+    return razao > percentualIdeal;
+}
