@@ -270,6 +270,19 @@ decimal RazaoEtanolGasolina(decimal valorEtanol, decimal valorGasolina)
 }
 
 bool AbastecerComGasolina(decimal razao)
+
+
+
+
+
+
+
+
+﻿EXERCÍCIO UM DOIS TRES PIMMM
+
+
+for (int n = 1; n <= 40; n++)
+    Console.Write(n % 4 == 0 ? "pim\n" : $"{n,2} ");
 {
     const decimal percentualIdeal = 0.73M;
     return razao > percentualIdeal;
