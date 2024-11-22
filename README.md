@@ -278,6 +278,9 @@ bool AbastecerComGasolina(decimal razao)
 
 
 
+
+
+
 ﻿EXERCÍCIO UM DOIS TRES PIMMM
 
 
@@ -285,5 +288,98 @@ for (int n = 1; n <= 40; n++)
     Console.Write(n % 4 == 0 ? "pim\n" : $"{n,2} ");
 {
     const decimal percentualIdeal = 0.73M;
+
+
+
+
+
+
+
+
+
+
+
+EXEMPLOS (22 NOVEMBRO)
+
+
+int qtdExecutada = 0;
+int maxExecucoes = 10000;
+
+while (qtdExecutada < maxExecucoes)
+{
+    Console.Write("Hello, World!");
+    qtdExecutada = qtdExecutada + 1;
+    Console.WriteLine($"Execução # {qtdExecutada}");
+}
+
+
+
+Exemplo 2:
+
+
+string comando = "";
+
+while (comando != "sair")
+{
+    Console.Write("Digite um comando (ou 'sair'): ");
+    comando = Console.ReadLine()!;
+}
+
+
+Exemplo 3:
+
+
+Console.Write("Início: ");
+int numero = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Máximo: ");
+int maximo = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Passo (>0): ");
+int passo = Convert.ToInt32(Console.ReadLine());
+
+while (numero <= maximo)
+{
+    Console.Write($"{numero} ");
+    numero += passo;
+}
+
+
+Exemplo 4:
+
+
+Console.Write("Tabuada do número: ");
+int numero = Convert.ToInt32(Console.ReadLine());
+int contador = 0;
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+    contador++;
+}
+
+
+Exemplo 5:
+
+
+Console.Write("Largura: ");
+int largura = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Altura: ");
+int altura = Convert.ToInt32(Console.ReadLine());
+
+int colunas = 0, linhas = 0;
+
+while (linhas < altura)
+{
+    colunas = 0;
+    while (colunas < largura)
+    {
+        Console.Write("*");
+        colunas++;
+    }
+    Console.WriteLine();
+    linhas++;
+}
     return razao > percentualIdeal;
 }
