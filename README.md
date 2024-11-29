@@ -383,3 +383,6 @@ while (linhas < altura)
 }
     return razao > percentualIdeal;
 }
+
+
+https://github.com/RuanMSantos/LiberacaoGitProxy
