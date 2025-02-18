@@ -416,3 +416,7 @@ while (linhas < altura)
 
 
 https://github.com/RuanMSantos/LiberacaoGitProxy
+
+
+
+https://www.onlinegdb.com/
