@@ -415,6 +415,28 @@ while (linhas < altura)
 }
 
 
+
+LINKS DE PESQUISA DA AULA DE REDES
+
+
+https://poloeletronica.com.br/glossario/o-que-e-dispositivos-de-comunicacao-por-cabo/
+
+https://mundoeducacao.uol.com.br/fisica/a-utilizacao-fibra-optica.htm
+
+https://www.teleco.com.br/tutoriais/tutorialOPGW-OPPC/pagina_3.asp
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://github.com/RuanMSantos/LiberacaoGitProxy
 
 
